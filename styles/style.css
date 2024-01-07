@@ -69,9 +69,30 @@ body {
 
 
 
+/* gift item code  */
 
 
-
+.gift_content {
+    text-align: left;
+}
+.gift_content > h4{
+    text-transform: uppercase;
+    color: red;
+}
+.gift_content > h2{
+    margin: 10px 0px;
+}
+.gift_content > p {
+    margin-bottom: 21px;
+    width: 500px;
+}
+.gift_item .gift_item_img {
+    height: 300px;
+    width: 345px;
+}
+.gift_item .flex_code{
+    gap: 30px;
+}
 
 
 

@@ -82,7 +82,7 @@ body {
 /* discount_section  */
 .discount_section {
     text-align: center;
-    margin: 50px;
+    margin: 61px;
 }
 .discount_section > h1 {
     margin-bottom: 25px;
@@ -114,8 +114,9 @@ body {
 }
 .midnight_content > h2 {
     color: white;
-    width: 328px;
+    width: 513px;
     font-weight: bold;
+    font-size: 58px;
 }
 .midnight_content > p {
     color: white;
@@ -149,7 +150,7 @@ body {
     margin-bottom: 80px;
 }
 .notice_section > button{
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 /* coming_soon_container code  */
@@ -158,16 +159,21 @@ body {
     gap: 70px;
     margin-bottom: 80px;
 }
-.coming_soon_single_content p{
-    margin: 10px 0;
+.coming_soon_single_content p {
+    margin: 10px 0px 28px;
 }
 .coming_soon_img{
-    border: 5px solid red;
+    border: 8px solid red;
     border-radius: 50%;
     padding: 20px;
 }
+.coming_soon_img > img{
+    width: 300px;
+    height: 300px;
+}
 .coming_soon_single_content > h2 {
     font-weight: 900;
+    margin-top: 7px;
 }
 
 /* Holidays Sale code  */
@@ -223,15 +229,29 @@ body {
     margin-bottom: 21px;
     width: 500px;
 }
-.gift_item{
-    margin-bottom: 30px;
+
+.gift_item_container{
+
+    flex-direction: row;
 }
-.gift_item img{
+.gift_item {
+    gap: 15px;
+}
+.gift_item_img {
     width: 350px;
     height: 350px;
+    margin-bottom: 36px;
+    transition: 1s;
+}
+.gift_item img{
+    display: block;
+    width: 100%;
 }
 
-
+.gift_item_img:hover {
+    transform: scale(1.1);
+    z-index: 2;
+}
 
 
 
@@ -266,12 +286,12 @@ form{
     display: flex;
     justify-content: center;
 }
-.subscribe input[type="text"]{
+.subscribe input[type="text"] {
     display: inline-block;
     padding: 10px;
-    width: 350px;
+    width: 273px;
     border: none;
-    border-radius: 17px 0 0 17px;
+    border-radius: 17px 0px 0px 17px;
 }
 .subscribe input[type="submit"] {
     display: inline-block;

@@ -29,7 +29,7 @@ body {
     color: rgba(7, 2, 17, 0.60);
     font-size: 14px;
     font-weight: 400;
-    line-height: 20px;
+    line-height: 23px;
 }
 .common_btn{
     color: white;
@@ -149,15 +149,37 @@ body {
     font-weight: 900;
 }
 
-
-
-
-
-
-
-
-
-
+/* Holidays Sale code  */
+.holyday_section{
+    margin-bottom: 80px;
+}
+.holyday_content {
+    text-align: center;
+}
+.holyday_content > h1 > span {
+    color: black;
+}
+.holyday_content p{
+    margin: 20px;
+}
+.holyday_main_body{
+    text-align: right;
+    position: relative;
+}
+.holyday_img_position {
+    position: absolute;
+    right: 274px;
+    top: 87px;
+}
+.holyday_footer{
+    position: relative;
+}
+.holyday_footer_img_position {
+    position: absolute;
+    right: 42%;
+    bottom: 41px;
+    height: 508px;
+}
 
 
 

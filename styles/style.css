@@ -9,13 +9,13 @@
 body {
     font-family: 'Inter', sans-serif;
 }
+
 /* common code  */
 .flex_code {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
 .section_title {
     font-size: 30px;
     font-family: 'Merriweather', serif;
@@ -23,7 +23,6 @@ body {
     font-weight: 900;
     text-transform: capitalize;
 }
-
 .section_description {
     font-family: 'Inter', sans-serif;
     color: rgba(7, 2, 17, 0.60);
@@ -48,28 +47,28 @@ body {
     color: #F00;
 }
 
-
-
-/* for header section  */
-.banner_bg {
+/* for header/banar section  */
+.banner_container {
     max-width: 1080px;
     margin: 0 auto;
-}
-
-.banner_content {
-    background-image: url('../images/BannerImage.png');
+    text-align: center;
     color: white;
+}
+.banner_bg {
+    background-image: url('../images/BannerImage.png');
+    padding: 135px 0 350px 0;
     background-size: contain;
     background-repeat: no-repeat;
-    text-align: center;
-    padding: 177px 0px;
 }
-
-.banner_bg .header_title {
-    font-size: 60px;
+.banner_content{
     width: 700px;
     margin: 0 auto;
 }
+.banner_content > h1 {
+    font-size: 62px;
+    color: #FFF;
+}
+
 
 /* main section code  */
 .main_section {
@@ -240,10 +239,14 @@ body {
 form{
     text-align: center;
 }
+.subs_form{
+    display: flex;
+    justify-content: center;
+}
 .subscribe input[type="text"]{
     display: inline-block;
     padding: 10px;
-    width: 250px;
+    width: 350px;
     border: none;
     border-radius: 17px 0 0 17px;
 }
@@ -259,7 +262,6 @@ form{
 .footer_bg {
     background-color: #070211;
     color: #FFF;
-    margin-bottom: 300px;
 }
 
 .footer_contract {

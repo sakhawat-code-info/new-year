@@ -44,6 +44,9 @@ body {
     font-weight: 900;
     color: #F00;
 }
+.span_comn_color{
+    color: #F00;
+}
 
 
 
@@ -100,6 +103,8 @@ body {
     height: 100%;
     color: white;
     padding: 0 100px;
+    margin-bottom: 80px;
+    border-radius: 9px;
 }
 .midnight_content > h2 {
     color: white;
@@ -112,11 +117,37 @@ body {
     margin: 20px 0;
 }
 
+/* notice section code  */
+.notice_section {
+    background-color: rgba(255, 0, 0, 0.10);
+    text-align: center;
+    text-transform: capitalize;
+    line-height: 26px;
+    padding: 90px 0px;
+    font-weight: 700;
+    margin-bottom: 80px;
+}
+.notice_section > button{
+    margin-top: 20px;
+}
 
+/* coming_soon_container code  */
 
-
-
-
+.coming_soon_container {
+    gap: 70px;
+    margin-bottom: 80px;
+}
+.coming_soon_single_content p{
+    margin: 10px 0;
+}
+.coming_soon_img{
+    border: 5px solid red;
+    border-radius: 50%;
+    padding: 20px;
+}
+.coming_soon_single_content > h2 {
+    font-weight: 900;
+}
 
 
 

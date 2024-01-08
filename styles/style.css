@@ -38,6 +38,14 @@ body {
     border: none;
     padding: 10px 20px;
 }
+.discount_heading{
+    font-size: 50px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+    color: #F00;
+}
+
+
 
 /* for header section  */
 .banner_bg {
@@ -48,8 +56,10 @@ body {
 .banner_content {
     background-image: url('../images/BannerImage.png');
     color: white;
+    background-size: contain;
+    background-repeat: no-repeat;
     text-align: center;
-    padding: 215px 0px;
+    padding: 177px 0px;
 }
 
 .banner_bg .header_title {
@@ -63,6 +73,70 @@ body {
     max-width: 1080px;
     margin: 0 auto;
 }
+
+/* discount_section  */
+.discount_section {
+    text-align: center;
+    margin: 50px;
+}
+.discount_section > h1 {
+    margin-bottom: 25px;
+}
+.discount_section > p {
+    color: #F00;
+    font-weight: 500;
+    font-weight: bold;
+}
+.discount_section > img{
+    margin-top: 20px;
+    width: 500px;
+}
+
+/* midnight_section code  */
+.midnight_section {
+    background-image: url('../images/Vectorrr.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100%;
+    color: white;
+    padding: 0 100px;
+}
+.midnight_content > h2 {
+    color: white;
+    width: 328px;
+    font-weight: bold;
+}
+.midnight_content > p {
+    color: white;
+    width: 500px;
+    margin: 20px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

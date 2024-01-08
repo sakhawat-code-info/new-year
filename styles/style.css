@@ -5,7 +5,6 @@
     padding: 0;
     margin: 0;
 }
-
 body {
     font-family: 'Inter', sans-serif;
     margin: 0px;
@@ -79,6 +78,7 @@ body {
     margin: 0 auto;
 }
 
+
 /* discount_section  */
 .discount_section {
     text-align: center;
@@ -96,6 +96,7 @@ body {
     margin-top: 20px;
     width: 500px;
 }
+
 
 /* midnight_section code  */
 .midnight_section {
@@ -136,9 +137,6 @@ body {
 }
 
 
-
-
-
 /* notice section code  */
 .notice_section {
     background-color: rgba(255, 0, 0, 0.10);
@@ -153,8 +151,8 @@ body {
     margin-top: 30px;
 }
 
-/* coming_soon_container code  */
 
+/* coming_soon_container code  */
 .coming_soon_container {
     gap: 70px;
     margin-bottom: 80px;
@@ -175,6 +173,7 @@ body {
     font-weight: 900;
     margin-top: 7px;
 }
+
 
 /* Holidays Sale code  */
 .holyday_section{
@@ -217,6 +216,7 @@ body {
     height: 508px;
 }
 
+
 /* gift item code  */
 
 .gift_content > h4{
@@ -252,13 +252,6 @@ body {
     transform: scale(1.1);
     z-index: 2;
 }
-
-
-
-
-
-
-
 
 
 /* Subscribe section code  */
@@ -301,30 +294,26 @@ form{
     border-radius: 0 17px 17px 0;
 }
 
+
 /* footer section  */
 .footer_bg {
     background-color: #070211;
     color: #FFF;
 }
-
 .footer_contract {
     padding: 69px 142px 20px 0px;
     border-bottom: 2px solid rgba(255, 255, 255, 0.15);
 }
-
 .footer_address>p {
     line-height: 22px;
 }
-
 .footer_call ul {
     padding: 0;
     margin: 0;
 }
-
 .footer_call ul li {
     list-style: none;
 }
-
 .footer_call ul li img {
     height: 14px;
     width: 14px;
@@ -336,31 +325,27 @@ form{
 .footer_bg {
     padding: 0px 100px;
 }
-
 .footer_connect_us {
     text-align: center;
     border-bottom: 2px solid rgba(255, 255, 255, 0.15);
 }
-
 .footer_connect_us ul {
     padding: 0;
     margin: 0;
 }
-
 .footer_connect_us ul li {
     list-style: none;
     display: inline-block;
     margin: 20px 8px;
 }
-
 .footer_connect_us ul li img {
     height: 40px;
     width: 40px;
 }
-
 .footer_connect_us ul li a {
     text-decoration: none;
 }
+
 
 /* footer_subscribe section  */
 .footer_copy_suscrb {

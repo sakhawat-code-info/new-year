@@ -102,11 +102,15 @@ body {
     background-image: url('../images/Vectorrr.png');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100%;
     color: white;
-    padding: 0 100px;
+    /* padding: 92px 100px; */
     margin-bottom: 80px;
     border-radius: 9px;
+    background-position: center;
+    height: 500px;
+}
+.midnight_content{
+    padding: 92px 100px;
 }
 .midnight_content > h2 {
     color: white;
@@ -118,6 +122,21 @@ body {
     width: 500px;
     margin: 20px 0;
 }
+.midnight_content > button {
+    color: white;
+    border: none;
+    font-size: 14px;
+    font-weight: 900;
+    background: none;
+}
+.midnight_position_img > img {
+    height: 354px;
+    padding: 25px 142px 40px 0px;
+}
+
+
+
+
 
 /* notice section code  */
 .notice_section {

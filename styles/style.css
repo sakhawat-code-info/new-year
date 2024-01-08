@@ -181,30 +181,10 @@ body {
     height: 508px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* gift item code  */
 
-
-.gift_content {
-    text-align: left;
-}
 .gift_content > h4{
     text-transform: uppercase;
-    color: red;
 }
 .gift_content > h2{
     margin: 10px 0px;
@@ -213,12 +193,15 @@ body {
     margin-bottom: 21px;
     width: 500px;
 }
-.gift_item .gift_item_img {
-    height: 300px;
-    width: 345px;
-}
-.gift_item .flex_code{
+.gift_item{
     gap: 30px;
+
+}
+.gift_item_img{
+    marg
+}
+.gift_item_img img{
+
 }
 
 

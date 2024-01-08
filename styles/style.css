@@ -58,9 +58,10 @@ body {
 }
 .banner_bg {
     background-image: url('../images/BannerImage.png');
-    padding: 135px 0 157px 0;
-    background-size: contain;
+    padding: 135px 0px 157px 0;
+    background-size: cover;
     background-repeat: no-repeat;
+    border-radius: 10px;
 }
 .banner_content{
     width: 700px;
@@ -100,7 +101,7 @@ body {
 .midnight_section {
     background-image: url('../images/Vectorrr.png');
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     height: 100%;
     color: white;
     padding: 0 100px;
@@ -156,12 +157,14 @@ body {
 }
 .holyday_content {
     text-align: center;
+    width: 610px;
+    margin: 0 auto;
 }
 .holyday_content > h1 > span {
     color: black;
 }
-.holyday_content p{
-    margin: 20px;
+.holyday_content p {
+    margin: 25px;
 }
 .holyday_main_body{
     text-align: right;
@@ -202,20 +205,12 @@ body {
     width: 500px;
 }
 .gift_item{
-    gap: 30px;
-
+    margin-bottom: 30px;
 }
-.gift_item_img{
-    marg
+.gift_item img{
+    width: 350px;
+    height: 350px;
 }
-.gift_item_img img{
-
-}
-
-
-
-
-
 
 
 
@@ -274,7 +269,7 @@ form{
 }
 
 .footer_contract {
-    padding: 69px 183px 20px 140px;
+    padding: 69px 142px 20px 0px;
     border-bottom: 2px solid rgba(255, 255, 255, 0.15);
 }
 

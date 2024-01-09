@@ -5,6 +5,7 @@
     padding: 0;
     margin: 0;
 }
+
 body {
     font-family: 'Inter', sans-serif;
     margin: 0px;
@@ -17,6 +18,7 @@ body {
     justify-content: space-between;
     align-items: center;
 }
+
 .section_title {
     font-size: 30px;
     font-family: 'Merriweather', serif;
@@ -24,6 +26,7 @@ body {
     font-weight: 900;
     text-transform: capitalize;
 }
+
 .section_description {
     font-family: 'Inter', sans-serif;
     color: rgba(7, 2, 17, 0.60);
@@ -31,22 +34,26 @@ body {
     font-weight: 400;
     line-height: 23px;
 }
-.common_btn{
+
+.common_btn {
     color: white;
     background-color: red;
     border-radius: 3px;
     border: none;
     padding: 10px 20px;
 }
-.discount_heading{
+
+.discount_heading {
     font-size: 50px;
     font-family: 'Inter', sans-serif;
     font-weight: 900;
     color: #F00;
 }
-.span_comn_color{
+
+.span_comn_color {
     color: #F00;
 }
+
 
 /* for header/banar section  */
 .banner_section {
@@ -57,16 +64,18 @@ body {
     color: white;
     position: relative;
 }
-.banner_bg_gradient{
+
+.banner_bg_gradient {
     height: 100%;
     width: 100%;
-background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
     border-radius: 10px;
     position: absolute;
     left: 0;
     top: 0;
     opacity: 0.5;
 }
+
 .banner_bg {
     background-image: url('../images/BannerImage.png');
     background-size: cover;
@@ -74,6 +83,7 @@ background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
     border-radius: 10px;
     height: 100%;
 }
+
 .banner_content {
     width: 700px;
     position: absolute;
@@ -82,11 +92,13 @@ background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
     left: 200px;
     opacity: 2;
 }
-.banner_content > h3 {
+
+.banner_content>h3 {
     font-weight: 400;
     font-family: 'Merriweather', serif;
 }
-.banner_content > h1 {
+
+.banner_content>h1 {
     font-size: 62px;
     color: #FFF;
 }
@@ -104,15 +116,18 @@ background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
     text-align: center;
     margin: 61px;
 }
-.discount_section > h1 {
+
+.discount_section>h1 {
     margin-bottom: 25px;
 }
-.discount_section > p {
+
+.discount_section>p {
     color: #F00;
     font-weight: 500;
     font-weight: bold;
 }
-.discount_section > img{
+
+.discount_section>img {
     margin-top: 20px;
     width: 500px;
 }
@@ -125,10 +140,11 @@ background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
     position: relative;
     margin-bottom: 80px;
 }
-.midnight_bg_gradient{
+
+.midnight_bg_gradient {
     height: 100%;
     width: 100%;
-background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
     border-radius: 10px;
     position: absolute;
     left: 0;
@@ -144,23 +160,27 @@ background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
     background-position: center;
     height: 100%;
 }
+
 .midnight_content {
     position: absolute;
     top: 106px;
     left: 120px;
 }
-.midnight_content > h2 {
+
+.midnight_content>h2 {
     color: white;
     width: 513px;
     font-weight: bold;
     font-size: 58px;
 }
-.midnight_content > p {
+
+.midnight_content>p {
     color: white;
     width: 500px;
     margin: 20px 0;
 }
-.midnight_content > button {
+
+.midnight_content>button {
     color: white;
     border: none;
     font-size: 14px;
@@ -168,7 +188,8 @@ background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
     background: none;
     padding: 10px 20px;
 }
-.midnight_content > button:hover {
+
+.midnight_content>button:hover {
     color: white;
     background-color: red;
     border-radius: 3px;
@@ -176,23 +197,23 @@ background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
     padding: 10px 20px;
     transition: 0.7s;
 }
+
 .midnight_position_img {
     position: absolute;
     height: 354px;
     right: 132px;
     top: 72px;
 }
-.midnight_position_img > img {
+
+.midnight_position_img>img {
     display: block;
     height: 100%;
 }
 
 
 /* notice section code  */
-
-
 .notice_section {
-    background-color: rgba(255, 0, 0, 0.10);
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
     text-align: center;
     text-transform: capitalize;
     line-height: 26px;
@@ -200,68 +221,86 @@ background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
     font-weight: 700;
     margin-bottom: 80px;
 }
-.notice_section > button{
+
+.notice_section>button {
     margin-top: 30px;
 }
-
+.notice_section > button:hover {
+    color: white;
+    background-color: #3498db;
+    transition: 0.3s;
+}
 
 /* coming_soon_container code  */
 .coming_soon_container {
     gap: 70px;
-    margin-bottom: 80px;
+    margin-bottom: 115px;
 }
+
 .coming_soon_single_content p {
     margin: 10px 0px 28px;
 }
-.coming_soon_img{
+
+.coming_soon_img {
     border: 8px solid red;
     border-radius: 50%;
     padding: 20px;
 }
-.coming_soon_img > img{
+
+.coming_soon_img>img {
     width: 300px;
     height: 300px;
 }
-.coming_soon_single_content > h2 {
+
+.coming_soon_single_content>h2 {
     font-weight: 900;
     margin-top: 7px;
 }
 
 
 /* Holidays Sale code  */
-.holyday_section{
+.holyday_section {
     margin-bottom: 80px;
 }
+
 .holyday_content {
     text-align: center;
     width: 610px;
     margin: 0 auto;
 }
-.holyday_content > h1 > span {
+
+.holyday_content>h1>span {
     color: black;
 }
+
 .holyday_content p {
     margin: 25px;
 }
-.holyday_main_body{
+
+.holyday_main_body {
     text-align: right;
     position: relative;
 }
-.holyday_body_img{
+
+.holyday_body_img {
     vertical-align: middle;
 }
+
 .holyday_img_position {
     position: absolute;
     right: 274px;
     top: 87px;
 }
-.holyday_footer{
+
+.holyday_footer {
     position: relative;
 }
-.footer_img{
+
+.footer_img {
     width: 1080px;
     height: 120px;
 }
+
 .holyday_footer_img_position {
     position: absolute;
     right: 42%;
@@ -272,31 +311,36 @@ background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
 
 /* gift item code  */
 
-.gift_content > h4{
+.gift_content>h4 {
     text-transform: uppercase;
 }
-.gift_content > h2{
+
+.gift_content>h2 {
     margin: 10px 0px;
 }
-.gift_content > p {
+
+.gift_content>p {
     margin-bottom: 21px;
     width: 500px;
 }
 
-.gift_item_container{
+.gift_item_container {
 
     flex-direction: row;
 }
+
 .gift_item {
     gap: 15px;
 }
+
 .gift_item_img {
     width: 350px;
     height: 350px;
     margin-bottom: 36px;
     transition: 1s;
 }
-.gift_item img{
+
+.gift_item img {
     display: block;
     width: 100%;
 }
@@ -315,23 +359,29 @@ background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
     margin: 110px 0px;
     border-radius: 9px;
 }
+
 .subscribe img {
     height: 84px;
     width: 84px;
 }
+
 .subscribe h2 {
     margin: 20px 0px;
 }
+
 .subscribe p {
     margin-bottom: 20px;
 }
-form{
+
+form {
     text-align: center;
 }
-.subs_form{
+
+.subs_form {
     display: flex;
     justify-content: center;
 }
+
 .subscribe input[type="text"] {
     display: inline-block;
     padding: 10px;
@@ -339,6 +389,7 @@ form{
     border: none;
     border-radius: 17px 0px 0px 17px;
 }
+
 .subscribe input[type="submit"] {
     display: inline-block;
     padding: 10px;
@@ -353,20 +404,25 @@ form{
     background-color: #070211;
     color: #FFF;
 }
+
 .footer_contract {
     padding: 69px 142px 20px 0px;
     border-bottom: 2px solid rgba(255, 255, 255, 0.15);
 }
+
 .footer_address>p {
     line-height: 22px;
 }
+
 .footer_call ul {
     padding: 0;
     margin: 0;
 }
+
 .footer_call ul li {
     list-style: none;
 }
+
 .footer_call ul li img {
     height: 14px;
     width: 14px;
@@ -378,23 +434,28 @@ form{
 .footer_bg {
     padding: 0px 100px;
 }
+
 .footer_connect_us {
     text-align: center;
     border-bottom: 2px solid rgba(255, 255, 255, 0.15);
 }
+
 .footer_connect_us ul {
     padding: 0;
     margin: 0;
 }
+
 .footer_connect_us ul li {
     list-style: none;
     display: inline-block;
     margin: 20px 8px;
 }
+
 .footer_connect_us ul li img {
     height: 40px;
     width: 40px;
 }
+
 .footer_connect_us ul li a {
     text-decoration: none;
 }

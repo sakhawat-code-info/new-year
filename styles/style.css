@@ -49,22 +49,43 @@ body {
 }
 
 /* for header/banar section  */
-.banner_container {
+.banner_section {
+    height: 490px;
     max-width: 1080px;
     margin: 0 auto;
     text-align: center;
     color: white;
+    position: relative;
 }
+.banner_bg_gradient{
+    height: 100%;
+    width: 100%;
+background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    border-radius: 10px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0.5;
+}
+
 .banner_bg {
     background-image: url('../images/BannerImage.png');
-    padding: 135px 0px 157px 0;
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 10px;
+    height: 100%;
 }
-.banner_content{
+.banner_content {
     width: 700px;
+    position: absolute;
     margin: 0 auto;
+    top: 135px;
+    left: 200px;
+    opacity: 2;
+}
+.banner_content > h3 {
+    font-weight: 400;
+    font-family: 'Merriweather', serif;
 }
 .banner_content > h1 {
     font-size: 62px;
